@@ -1,7 +1,7 @@
 import xlsxwriter
 
 def create_calculator():
-    workbook = xlsxwriter.Workbook('Cleaning_Profit_Calculator.xlsx')
+    workbook = xlsxwriter.Workbook('Profit Per Job Calculator.xlsx')
     
     # --- FORMATTING ---
     header_format = workbook.add_format({'bold': True, 'bg_color': '#1F4E78', 'font_color': 'white', 'border': 1, 'align': 'center'})
